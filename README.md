@@ -1,5 +1,4 @@
 # PosGraduacao-Docker_BancaDeFeira
-# P-sGradua-o-Docker_BancaDeFeira
 # Banca de Frutas - Aplicação Web
 
 Esta é uma aplicação web simples que exibe uma página estática de uma banca de frutas. A página contém informações sobre diferentes frutas, preços e links para sites externos onde os usuários podem comprar as frutas.
