@@ -1,14 +1,15 @@
-# Usa a imagem oficial do Python
-FROM python:3.9
+# Usa a imagem oficial do Nginx como base
+FROM nginx:alpine
 
-# Define o diretório de trabalho
-WORKDIR /app
+# Copia os arquivos HTML e CSS para o diretório de conteúdo do Nginx
+COPY index.html /usr/share/nginx/html/
+COPY style.css /usr/share/nginx/html/
 
-# Copia os arquivos do projeto para o contêiner
-COPY . /app
+# Copia a pasta assets para o diretório de conteúdo do Nginx
+COPY assets/ /usr/share/nginx/html/assets/
 
-# Expõe a porta 8000
-EXPOSE 8000
+# Expõe a porta 80, que é a porta padrão do Nginx
+EXPOSE 80
 
-# Comando para iniciar o servidor web simples
-CMD ["python", "-m", "http.server", "8000"]
+# Comando para iniciar o Nginx
+CMD ["nginx", "-g", "daemon off;"]
