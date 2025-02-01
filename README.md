@@ -98,7 +98,7 @@ A aplicação consiste em uma página HTML (`index.html`) que exibe **cards de f
 
 2. **Execute o contêiner:**
    ```sh
-    docker run -d -p 8080:80 elipealexanre178/banca-de-frutas:1.0
+    docker run -d -p 8080:80 felipealexanre178/banca-de-frutas:1.0
    ```
 
 3. **Acesse a aplicação:**
