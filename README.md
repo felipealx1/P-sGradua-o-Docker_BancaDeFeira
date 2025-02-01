@@ -131,7 +131,7 @@ A aplicação consiste em uma página HTML (`index.html`) que exibe **cards de f
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-- **Nome:** [José Felipe Alexandre Martins ]
-- **Email:** [felipealexandre178@gmail.com]
+- **Nome:** José Felipe Alexandre Martins
+- **Email:** felipealexandre178@gmail.com
 - **GitHub:** [https://github.com/felipealx1](https://github.com/felipealx1)
 
